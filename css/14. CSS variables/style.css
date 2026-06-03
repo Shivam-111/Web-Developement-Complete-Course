@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-text-color: black;
+    --secondary-text-color: rgb(137, 97, 97);
+    --card-background-color: white;
+    --parent-background-color: #eee;
+    --spacing-for-margin-pading:20px;
+}
+
+.dark{
+    --primary-text-color: rgb(203, 186, 186);
+    --secondary-text-color: rgb(236, 221, 221);
+    --card-background-color: rgb(115, 77, 77);
+    --parent-background-color: #eee;
+    --spacing-for-margin-pading:20px;
+}
+
+.container{
+    padding:45px;
+    /* --back-color:red; */
+    background-color: var(--parent-background-color);
+    min-height: 100vh;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    color: var(--primary-text-color);
+    background-color: var(--card-background-color);
+}
+h2{
+    color: var(--primary-text-color);
+    /* --back-color:yellow; */
+    background-color: var(--back-color);   /* variable method creation */
+    /* --back-color */                     /* variable method creation */
+}
+
+.box{
+    /* padding: 20px;
+    margin: 20px; */
+    padding: var(--spacing-for-margin-pading);
+    margin: var(--spacing-for-margin-pading);
+    /* --back-color:red; */
+    background-color: var(--card-background-color);
+    border-radius: 6%;
+}
+
+.box{
+    padding: 20px;
+    /* --back-color:red; */
+}
+
+
+
+
+/* outside container---------------------------  */
+/* h4{
+    padding: 45px;
+    background-color: aqua;
+    /* background-color: var(--back-color),pink; */
+/* } */ 
+
+
+/* 
+@media(min-width:600px){
+    .container{
+        --back-color: green;
+    }
+} */

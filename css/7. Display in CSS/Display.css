@@ -1,0 +1,43 @@
+*{
+    border: 1px solid green;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    width: 60%;
+}
+/* a{
+    width: 60%;
+    height: 50px;
+    /* display: 25%; */
+    /* display: inline; */
+    /* display: block; */
+    /* display: none; */
+} */
+
+img{
+    width: 20px;
+    height: 25px;
+    display: block;
+}
+
+ul{
+    list-style: circle;
+    text-align: center;
+    background-color: black;
+    padding: 30px;
+}
+
+ul > li > a{
+    color: rgb(142, 15, 15);
+    text-decoration: dashed;
+}
+
+li{
+    display: inline;
+}
+
+li>a:hover{
+    color: blueviolet;  /* hover design */
+}

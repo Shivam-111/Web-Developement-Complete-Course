@@ -1,0 +1,56 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin: 100px auto;
+    cursor: pointer;
+    /* transition: 2s; */
+    transition-duration:0.5s;
+    /* transition-property: background-color; */
+    /* transition-property: border-radius; */
+    /* transition-property: border-radius, background-color; */
+    transition-property: border-radius, background-color,transform;
+    /* transition-delay: 0.5s; */
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: ease-out; */
+    /* transition-timing-function: linear; */
+    /* transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+}
+.box:hover{
+    background-color: paleturquoise;
+    border-radius: 50%;
+    transform: rotate(180deg);
+
+}
+
+.box:hover{
+    background-color: aqua;
+    border-radius: 50%;
+    transform: rotate(180deg);
+}
+nav{
+    background-color: black;
+    color: white;
+}
+
+.list{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.item{
+    font-size: 1.2rem;
+    transition: 0.5s ease-in;
+
+}
+.item:hover{
+    color: rgb(242, 242, 241);
+    background-color: rgb(19, 1, 1);
+    cursor: pointer;
+    /* transform: translate(5px);   left >> */
+    /* transform: translatey(5px);    down >> */
+    /* transform: translatex(5px); */
+    /* transform: translate(-12px); */
+
+
+}

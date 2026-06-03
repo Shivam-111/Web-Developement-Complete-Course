@@ -1,0 +1,18 @@
+h1{
+    color: blueviolet;
+    background-color: aqua;
+    text-decoration: line-through;
+    text-decoration: underline;
+    text-decoration: wavy;
+    text-decoration: color(srgb red green blue);
+}
+
+
+/* text spacing on W3 School */
+p{
+    text-align: center;
+    text-decoration: dotted;
+    text-indent: 2px;
+    text-spacing-trim: 25px;
+    text-shadow: 2px;
+}

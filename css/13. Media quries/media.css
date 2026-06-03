@@ -1,0 +1,26 @@
+body{
+    background-color: aqua;
+}
+/* @media(width <= 600px) {
+    body{
+        background-color: blanchedalmond;
+    }
+} */
+
+@media(width <= 400px) {
+    body{
+        background-color: rgb(123, 84, 26);
+    }
+}
+
+@media(width <= 800) {
+    body{
+        background-color: rgb(205, 255, 253);
+    }
+}
+
+@media(min-width: 500px) and (max-width: 600px){
+    body{
+        background-color: blueviolet;
+    }
+}

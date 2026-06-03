@@ -1,0 +1,43 @@
+.container{
+    width: 600px;
+    height: 600px;
+    background-color: aqua;
+    margin: 80px;
+    position: relative;  
+}
+
+.sta{
+    background-color: coral;
+    text-align: center;
+    position: static;
+}
+
+.rel{
+    background-color: blueviolet;
+    text-align: right;
+    position: relative;
+}
+
+.abs{
+    background-color: brown;
+    text-align: right;
+    position: absolute;
+    top:0;
+    bottom: 0%;
+}
+
+.fix{
+    background-color: darkseagreen;
+    text-align: center;
+    position: fixed;
+}
+
+.sti{
+    background-color: greenyellow;
+    text-align: right;
+    position: sticky;
+}
+
+.blank{
+    height: 400vh;
+}

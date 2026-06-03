@@ -1,0 +1,28 @@
+main{
+    border: 2px solid brown;  /*unbreakable border*/
+    /* border: 3px dotted red; */
+    /* border: 3px dashed black; */
+    border-radius: 5%;
+    width: 50%;
+    /*vw (view width) vh(view height) px(pixels)em(element) rem(root element)*/
+}
+section{
+    border: 4px dotted green;
+    height: 150vh;
+    width: 70vw;
+}
+
+body{
+    font-size: 2em;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+
+
+
+
+/* zoga.net on browser for geading elements */
+/* ems and rems */

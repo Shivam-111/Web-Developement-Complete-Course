@@ -1,0 +1,55 @@
+/* ALL SELECTORS */
+ /* 
+ >> Element Selectors    > Select all elements of a specific type (<p>,<h1>)
+ >> ID Selectors         > select one element with a specific ID.
+ >> Class Selectors      > selects class atrinbute that have a specific class atribute.
+ >> Universal selectors  > for select all elements on the page.
+ >> Nested Selector      > selects elements that are inside another element.
+ >> Group selctors       > apply same style to multiple element at once.
+ >> Child Selctors       > select the element that are direct child of another element.
+ >> Decendent Selectors  > selects elements that are inside another element. */
+
+
+/* ELEMENTS SELECTORS  > Select all elements of a specific type (<p>,<h1>) */ 
+/* p{
+    color: green;
+}
+h2{
+    color: blue;
+} */
+
+/* CLASS SELECTORS  > selects elements with a specific class atribute. */
+/* .classselectors{
+    color: chartreuse;
+} */
+
+
+/* ID SELECTORS  > select one element with a specific ID. */
+/* #idselector{
+    color: brown;
+} */
+
+
+/* GROUP SELECTORS  > apply same style to multiple element at once. */
+/* p,h2{
+    font-family: Arial;
+} */
+
+
+/* DECENDENT SELECTORS > selects elements that are inside another element. */
+/* p h1{
+    color: blueviolet;
+} */ */
+
+
+/* CHILD SELCTORS  > select the element that are direct child of another element.*/
+/* p1 >p{
+    color: deeppink;
+} */
+
+
+/* UNIVERSAL SELECTORS  > for select margin and padding. */
+/* p{
+    margin-top: auto;
+    padding-bottom: 0%;
+} */

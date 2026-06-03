@@ -1,0 +1,26 @@
+body{
+    margin: 0%;
+}
+
+
+.box1{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box2{
+    padding: 20px;
+}
+
+div{
+    border: 50px solid green;
+    padding: 30px;               /*for all at a time*/
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin: 25px;
+    width: 200px;
+    height: 200px;
+}
