@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Bella Vista - an Authentic Restaurant">
+        <title>Bella Vista - Authentic Restaurent</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+ 
+    <body>
+        <header class="header">
+            <div class="container">
+                <nav class="navbar">
+                    <div class="logo">
+                        <h1>Bella Vista</h1>
+                        <span class="tagline">An Authentic Restaurant</span>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section id="home" class="hero">
+                <div class="hero-content">
+                    <h2>Welcome to Bella Vista</h2>
+                    <p>Visit Bella Vista that make you a person Who love bella vista.</p>
+                    <div class="hero-buttons">
+                        <a href="#menu" class="btn btn-primary">View Menu</a>
+                        <a href="#contact" class="btn btn-secondary">Make Reservation</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="menu" class="menu">
+                <div class="container">
+                    <h2 class="section-title">Our menu</h2>
+                    <p class="section-subtitle">Discover our carefully crafted dishes.</p>
+                    <div class="menu-categories">
+                        <div class="menu category">
+                            <h3>Appetizers</h3>
+                            <div class="menu-items">
+
+                                <div class="menu-item">
+                                    <div class="menu-info">
+                                        <h4>Bruschetta Italians</h4>
+                                        <p>fresh tomato, basil, and mozarrola on toasted bread.</p>
+                                    </div>
+                                    <span class="price">$12</span>
+                                </div>
+
+                                <div class="menu-item">
+                                    <div class="menu-info">
+                                        <h4>Paneer Tikka</h4>
+                                        <p>Collection of paneer cubes, with the tikka masala.</p>
+                                    </div>
+                                    <span class="price">$17</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="about" class="about">
+                <div class="container">
+                    <h2 class="section-title">About Bella Vista</h2>
+                    <div class="about-content">
+                        <div class="about-text">
+                            <h3>Our story</h3>
+                            <p>Founded in 1998 by the shivam dipte Rossi Family.Bella vista has began 
+                                serving authentic italian cuisines for overthree decades. 
+                                out passion for traditional recipes and fresh ingredients.</p>
+                            <p>Every dish is prepared with love and attendsion to detail using 
+                                passed down through generation of italian chef.</p>
+                        </div>
+                        <div class="about-images">
+                        <img src="images/restaurant.jpg" alt="Restaurant interior" width="600px" height="400px">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="Contact" class="contact">
+                <div class="container">
+                    <h2 class="section-title">Contact Us</h2>
+                    <div class="contact-content">
+                        <div class="contact-info">
+                            <h3>Get in Touch</h3>
+
+                            <div class="contact-item">
+                                <strong>Address:</strong>
+                                <p>123 Bibvevadi , city amaravati, Maharashtra</p>
+                            </div>
+
+                            <div class="contact-item">
+                                <strong>Email :</strong>
+                                <p>infobellavista@gmail.com</p>
+                            </div>
+                        </div>
+
+                            <div class="contact-form">
+                                <h3>Make a Reservation</h3>
+                                <form>
+                                    <div class="form-group">
+                                        <label for="name">Full Name:</label>
+                                        <input type="text" id="name" name="name" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="name">Email:</label>
+                                        <input type="email" id="email" name="email" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="phone">Phone: </label>
+                                        <input type="phone" id="phone" name="phone">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="Date">Reservation Date:</label>
+                                        <input type="Date" id="Date" name="Date">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="time">Time: </label>
+                                        <select id="time" name="time" required>
+                                        <option value="">Select Time</option>
+                                        <option value="18:00">6:00 PM</option>
+                                        <option value="18:00">7:00 PM</option>
+                                        <option value="18:00">8:00 PM</option>
+                                        <option value="18:00">9:00 PM</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="guest">Number of Guest:</label>
+                                        <select id="guest" name="guest" required>
+                                        <option value="">Select Guest</option>
+                                        <option value="1">1.guest</option>
+                                        <option value="2">2.guest</option>
+                                        <option value="3">3.guest</option>
+                                        <option value="4">4.guest</option>
+                                        <option value="5">5+.guest</option>
+                                        </select>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label for="message">Special Request:</label>
+                                        <textarea id="message" name="message" rows="4" placeholder="Any Special Requirement.."></textarea>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-primary">Submit Reservation</button>
+
+                                </form>
+                            </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h3>Bella Vista</h3>
+                        <p>Authentic italiand copy of dishes and its very healthy and impressive and declicious.</p>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4>Quick links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#menu">menu</a></li>
+                            <li><a href="#about">about</a></li>
+                            <li><a href="#contact">conatact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4>Opening hourse</h4>
+                        <p>Monday - Thursday: 11:00 AM</p>
+                        <p>Monday - Saturday: 11:00 Am</p>
+                        <p>Sunday - 12:00 AM: 9:00 PM</p>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4>Follow Us</h4>
+                        <div class="social media" Facebook>
+                            <a href="#" class="social links">Whatsapp</a>
+                            <a href="#" class="social links">Contact</a>
+                            <a href="#" class="social links">Facebook</a>
+                            <a href="#" class="social links">Instagram</a>
+                        </div>
+                    </div>
+
+                    <div class="footer-bottom">
+                        <p>&copy 2025 bella vista Restaurent.</p>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>
